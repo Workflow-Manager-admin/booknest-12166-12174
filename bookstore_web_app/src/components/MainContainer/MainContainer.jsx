@@ -47,32 +47,36 @@ const MainContainer = () => {
           <div className="collapse navbar-collapse" id="navbarContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink to="/" className={({ isActive }) => 
-                  `nav-link ${isActive ? 'active' : ''}`
-                }>
+                <NavLink 
+                  to="/" 
+                  className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+                >
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/books" className={({ isActive }) => 
-                  `nav-link ${isActive ? 'active' : ''}`
-                }>
+                <NavLink 
+                  to="/books" 
+                  className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+                >
                   Books
                 </NavLink>
               </li>
               {/* Cart link - could be conditionally rendered based on auth status */}
               <li className="nav-item">
-                <NavLink to="/cart" className={({ isActive }) => 
-                  `nav-link ${isActive ? 'active' : ''}`
-                }>
+                <NavLink 
+                  to="/cart" 
+                  className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+                >
                   Cart
                 </NavLink>
               </li>
               {/* Admin link - would typically be conditionally rendered based on user role */}
               <li className="nav-item">
-                <NavLink to="/admin" className={({ isActive }) => 
-                  `nav-link ${isActive ? 'active' : ''}`
-                }>
+                <NavLink 
+                  to="/admin" 
+                  className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+                >
                   Admin
                 </NavLink>
               </li>
