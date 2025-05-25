@@ -1,0 +1,5 @@
+{
+  "task_description": "{'component_name': 'Main Container for BookNest', 'description': 'Primary container for BookNest implementation: A full-stack Online Bookstore web application where users can register/login, browse books by categories, add books to a cart, and place orders. Admins can manage the book inventory. The backend is built with Node.js, Express, and MongoDB/PostgreSQL, following an MVC structure with secure authentication. The frontend uses HTML, CSS, and Bootstrap or Tailwind for a modern, responsive UI.', 'framework': 'react', 'platform': 'web'}",
+  "tasks": {},
+  "next_task_id": 1
+}
