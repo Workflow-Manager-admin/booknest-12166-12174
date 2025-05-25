@@ -84,12 +84,16 @@ const MainContainer = () => {
             
             {/* Authentication Section */}
             <div className="d-flex">
-              <NavLink to="/login" className={({ isActive }) => 
-                `btn ${isActive ? 'btn-primary' : 'btn-outline-light'} me-2`
-              }>
+              <NavLink 
+                to="/login" 
+                className={({ isActive }) => isActive ? "btn btn-primary me-2" : "btn btn-outline-light me-2"}
+              >
                 Login
               </NavLink>
-              <NavLink to="/register" className="btn btn-outline-light">
+              <NavLink 
+                to="/register" 
+                className="btn btn-outline-light"
+              >
                 Register
               </NavLink>
               
